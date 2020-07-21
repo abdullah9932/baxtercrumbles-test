@@ -10,16 +10,17 @@
     min-height: 400px;
 }
 .footer{
-    background-color: #D1c4e9;
+    background-color: #E2D9EC;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+    font-style: bold;
 }
 
 .jumbotron{
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
     background: #ebbfe8;
-    color: floralwhite;
+    color: white;
 }
 
 .address{
@@ -39,5 +40,6 @@ body{
 }
 
 .navbar-dark{
-    background-color: #df8ddb;
+    background-color: #E2D9EC;
 }
+
