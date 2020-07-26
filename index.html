@@ -39,7 +39,8 @@
                     <h1>The Baxters</h1>
                     <p>We take inspiration from the great Nimra Ayub, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-6 my-auto">
+                    <button class="btn btn-warning" onclick="document.getElementById('form1').scrollIntoView();">Reserve Table</button>
                 </div>
             </div>
         </div>
@@ -55,8 +56,8 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png">
                     <div class="media-body">
-                        <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                        <h2>Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
             </div>
@@ -68,8 +69,13 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col-12 col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <img class="d-flex img-thumbnail align-self-center order-last order-sm-last" src="/img/buffet.png">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -83,9 +89,68 @@
                     <div class="media-body">
                         <h2>Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row row-content" >
+            <div class="col-12 col-sm-12 col-md-8">
+                <h3 class="card card-header bg-warning text-white">Reserve a Table</h3>
+                  <div class=" card card-body">  
+                <form id="form1">
+                        <div class="form-group row">
+                            <label  class="col-md-2 inline">No of Guests</label>
+                            <div class="col-2 col-md-1">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio1" >1
+                                  </label>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio2" >2
+                                  </label>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio3" >3
+                                  </label>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio4" >4
+                                  </label>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio5" >5
+                                  </label>
+                            </div>
+                            <div class="col-2 col-md-1">
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio6" >6
+                                  </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label  class="col-md-2 inline">Date And Time</label>
+                            <div class="col-6 col-md-6 col-sm-6">
+                                <input type="date" placeholder="Date">
+                            </div>
+                            <div class="col-6 col-md-6 col-sm-6">
+                                <input type="time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
+                        </div>
+                    </form>  
+                </div>
+                </div>      
+            </div>
         </div>
     </div>
 
